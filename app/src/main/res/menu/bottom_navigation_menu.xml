@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:id="@+id/bottomhome"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="@string/movies"
+        android:id="@+id/movies"
+        android:icon="@drawable/ic_baseline_local_movies_24"/>
+    <item android:title="@string/plays"
+        android:id="@+id/plays"
+        android:icon="@drawable/web_serices_white"/>
+    <item android:title="@string/dubs"
+        android:id="@+id/dubs"
+        android:icon="@drawable/ic_baseline_mic_24"/>
+
+    <item android:title="@string/menu"
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_menu_24"/>
+</menu>

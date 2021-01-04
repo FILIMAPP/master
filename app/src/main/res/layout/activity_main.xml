@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom_navigation"/>
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                app:menu="@menu/bottom_navigation_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemIconTint="@drawable/bottom_navigation_item_colors"
+                app:itemTextColor="@drawable/bottom_navigation_item_colors"
+                app:labelVisibilityMode="labeled"
+                android:layout_alignParentBottom="true"/>
+
+
+        </RelativeLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:itemIconTint="@color/white"
+            app:headerLayout="@layout/navigationview_header"
+            app:itemTextColor="@color/fontColor"
+            app:menu="@menu/drawer_items"
+            android:background="@color/black" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</layout>

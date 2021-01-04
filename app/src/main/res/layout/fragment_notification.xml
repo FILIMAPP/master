@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/matchmatch"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <include
+            android:id="@+id/toolbar"
+            style="@style/matchwrap"
+            layout="@layout/layout_toolbar"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/notification"
+            style="@style/matchwrap"
+            android:orientation="vertical"
+            app:layoutManager="LinearLayoutManager">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</layout>

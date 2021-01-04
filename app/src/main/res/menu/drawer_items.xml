@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/plan"
+        android:title="@string/plans"
+        android:icon="@drawable/ic_plans"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/watchList"
+        android:title="@string/watch_List"
+        android:icon="@drawable/ic_baseline_local_movies_24"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/invitefrnd"
+        android:title="@string/invitefriend"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:iconTint="@color/white"/>
+
+ <!--   <item
+        android:id="@+id/notification"
+        android:title="@string/notification"
+        android:icon="@drawable/ic_notification"
+        android:iconTint="@color/white"/>-->
+
+
+
+    <item
+        android:id="@+id/contactus"
+        android:title="@string/contact_us"
+        android:icon="@drawable/ic_contact"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/menu"
+        android:title="@string/aboutus"
+        android:icon="@drawable/ic_about"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/privacypolicy"
+        android:title="@string/privacy_policy"
+        android:icon="@drawable/ic_policy_24"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/faq"
+        android:title="@string/faq"
+        android:icon="@drawable/ic_policy_24"
+        android:iconTint="@color/white"/>
+
+
+
+    <item
+        android:id="@+id/signIn"
+        android:title="@string/signin" />
+
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="@color/white"/>
+
+
+
+
+</menu>

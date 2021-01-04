@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout
+    style="@style/matchmatch">
+    <LinearLayout
+        style="@style/matchmatch"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <include
+            android:id="@+id/toolbar"
+            style="@style/matchwrap"
+            layout="@layout/layout_toolbar"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circulariv"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:background="@null"
+            android:src="@drawable/profile_img"
+            android:layout_gravity="center_horizontal"/>
+
+     <!--   <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginTop="@dimen/margin_thirty"
+            android:id="@+id/circulariv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile_img"
+            android:layout_gravity="center_horizontal"/>-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            style="@style/matchwrap"
+            android:textColor="@color/fontColor"
+            android:hint="@string/add_username"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_sixteen"
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:textCursorDrawable = "@drawable/blackpipe"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_marginStart="@dimen/margin_ten"
+            android:layout_marginEnd="@dimen/margin_ten"
+            android:textColorHint="@color/fontColor"
+            android:padding="@dimen/margin_ten"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/mobileNo"
+            style="@style/wrapwrap"
+            android:textSize="@dimen/text_size_sixteen"
+            android:textColor="@color/fontColor"
+            android:text="+91 999999999"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_eight"/>
+
+        <Button
+            android:id="@+id/update"
+            style="@style/matchwrap"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:text="@string/update"
+            android:background="@drawable/bg_yellow"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/margin_fifteen" />
+
+        <TextView
+            style="@style/wrapwrap"
+            android:textSize="@dimen/text_size_sixteen"
+            android:textColor="@color/fontColor"
+            android:text="@string/membership"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:layout_marginStart="@dimen/margin_ten"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/llsubscriprtionDetail"
+            android:orientation="vertical"
+            style="@style/matchwrap"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:background="@drawable/bg_dark_gray"
+            android:layout_marginStart="@dimen/margin_ten"
+            android:layout_marginEnd="@dimen/margin_ten"
+            android:paddingStart="@dimen/margin_fifteen"
+            android:paddingEnd="@dimen/margin_fifteen"
+            android:paddingTop="@dimen/margin_ten"
+            android:paddingBottom="@dimen/margin_ten"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/subsDetail"
+                style="@style/wrapwrap"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/text_size_sixteen"
+                android:layout_marginTop="@dimen/margin_fifteen"/>
+
+            <TextView
+                android:id="@+id/validDate"
+                style="@style/wrapwrap"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/text_size_thirteen"
+                android:layout_marginTop="@dimen/margin_five"/>
+
+
+
+            <Button
+                android:id="@+id/updatePackage"
+                style="@style/matchwrap"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:text="@string/upgrade_your_package"
+                android:background="@drawable/bg_yellow"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/margin_fifteen"
+                android:paddingEnd="@dimen/margin_fifteen"/>
+        </LinearLayout>
+        <TextView
+            style="@style/wrapwrap"
+            android:textSize="@dimen/text_size_sixteen"
+            android:textColor="@color/fontColor"
+            android:text="@string/account_and_security"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_marginStart="@dimen/margin_ten"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/matchwrap"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:background="@drawable/bg_dark_gray"
+            android:layout_marginStart="@dimen/margin_ten"
+            android:layout_marginEnd="@dimen/margin_ten"
+            android:paddingStart="@dimen/margin_fifteen"
+            android:paddingEnd="@dimen/margin_fifteen"
+            android:paddingTop="@dimen/margin_ten"
+            android:paddingBottom="@dimen/margin_ten"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/wrapwrap"
+                android:textSize="@dimen/text_size_sixteen"
+                android:textColor="@color/fontColor"
+                android:text="@string/change_password" />
+
+            <TextView
+                style="@style/wrapwrap"
+                android:textSize="@dimen/text_size_sixteen"
+                android:textColor="@color/fontColor"
+                android:text="@string/logout"
+                android:layout_marginTop="@dimen/margin_ten"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>
+
+</layout>

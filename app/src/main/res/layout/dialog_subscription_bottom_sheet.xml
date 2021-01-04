@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/matchmatch">
+        <RelativeLayout
+            android:id="@+id/main_container"
+            style="@style/matchmatch"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                style="@style/matchwrap"
+                android:id="@+id/root_layout"
+                android:background="@color/black"
+                android:orientation="vertical"
+                android:minHeight="450dp">
+
+                <LinearLayout
+                    android:id="@+id/close"
+                    style="@style/matchwrap"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_fifteen">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gray"
+                        android:minWidth="60dp"
+                        android:minHeight="10dp"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    style="@style/wrapwrap"
+                    android:textColor="@color/fontColor"
+                    android:text="@string/upgrade_your_subscription"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_fifteen"/>
+
+                <LinearLayout
+                    android:id="@+id/login"
+                    android:orientation="vertical"
+                    style="@style/matchwrap"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="@drawable/bg_dark_gray"
+                    android:layout_marginStart="@dimen/margin_ten"
+                    android:layout_marginEnd="@dimen/margin_ten"
+                    android:paddingStart="@dimen/margin_fifteen"
+                    android:paddingEnd="@dimen/margin_fifteen"
+                    android:paddingTop="@dimen/margin_ten"
+                    android:paddingBottom="@dimen/margin_ten">
+
+                   <!-- <TextView
+                        style="@style/wrapwrap"
+                        android:textColor="@color/fontColor"
+                        android:text="@string/upgrade_to"
+                        android:textSize="@dimen/text_size_sixteen"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        style="@style/wrapwrap"
+                        android:src="@drawable/ic_launcher"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin_ten"/>-->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/verticalRecycler"
+                        style="@style/matchwrap"
+                        android:orientation="vertical"
+                        app:layoutManager="LinearLayoutManager"/>
+
+                    <Button
+                        android:id="@+id/payNow"
+                        style="@style/wrapwrap"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:text="@string/ninty_nine_per_now"
+                        android:background="@drawable/bg_yellow"
+                        android:textColor="@color/red"
+                        android:paddingStart="@dimen/margin_fifteen"
+                        android:paddingEnd="@dimen/margin_fifteen"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/gotoLogin"
+                    style="@style/wrapwrap"
+                    android:textColor="@color/fontColor"
+                    android:text="@string/already_a_member"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress_circular"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

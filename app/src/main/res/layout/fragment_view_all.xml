@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        style="@style/matchmatch">
+        <LinearLayout
+            style="@style/matchmatch"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <include
+                android:id="@+id/toolbar"
+                style="@style/matchwrap"
+                layout="@layout/layout_toolbar"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rvViewAll"
+                style="@style/matchwrap"
+                android:orientation="vertical"
+                app:layoutManager="LinearLayoutManager"
+                android:layout_marginStart="@dimen/margin_five"
+                android:layout_marginEnd="@dimen/margin_five">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+</layout>

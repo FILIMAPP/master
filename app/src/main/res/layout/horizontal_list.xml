@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/matchwrap"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/matchwrap"
+            android:padding="@dimen/margin_eight">
+
+            <TextView
+                android:id="@+id/horizontalListTitle"
+                style="@style/wrapwrap"
+                android:text=""
+                android:textSize="@dimen/text_size_sixteen"
+                android:textColor="@color/fontColor"/>
+
+            <TextView
+                android:id="@+id/viewall"
+                style="@style/wrapwrap"
+                android:text="View All"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_thirteen"
+                android:textColor="@color/fontColor"/>
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/horizontalList"
+            style="@style/matchwrap"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager" />
+    </LinearLayout>
+</layout>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="@style/matchwrap"
+        android:background="@color/black"
+        android:padding="@dimen/margin_ten">
+
+        <LinearLayout
+           style="@style/matchwrap"
+            android:background="@drawable/bg_dark_gray">
+            <ImageView
+                style="@style/wrapwrap"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center_vertical"/>
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/matchwrap"
+                android:padding="@dimen/margin_fifteen">
+
+
+
+                <TextView
+                    style="@style/wrapwrap"
+                    android:text="Notification"
+                    android:textSize="@dimen/text_size_eighteen"
+                    android:textColor="@color/fontColor" />
+
+                <TextView
+                    style="@style/wrapwrap"
+                    android:text="Notification Description"
+                    android:textSize="@dimen/text_size_sixteen"
+                    android:textColor="@color/fontColor"
+                    android:layout_marginTop="@dimen/margin_five" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

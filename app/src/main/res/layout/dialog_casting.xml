@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/matchwrap"
+        android:background="@drawable/bg_black">
+        <LinearLayout
+            style="@style/matchwrap"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_twenty">
+
+
+               <TextView
+                   android:id="@+id/nameText"
+                   style="@style/wrapwrap"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="@dimen/margin_fifteen"
+                   android:gravity="center"
+                   android:padding="2dp"
+                   android:textColor="@color/fontColor"
+                   android:textSize="@dimen/text_size_sixteen"
+                   android:text="@string/casting_msg" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_yellow"
+                android:text="@string/done"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_sixteen"
+                android:layout_marginTop="@dimen/margin_ten"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

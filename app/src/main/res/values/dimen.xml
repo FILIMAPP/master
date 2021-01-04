@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_thirteen">13sp</dimen>
+    <dimen name="text_size_fifteen">15sp</dimen>
+    <dimen name="text_size_sixteen">16sp</dimen>
+    <dimen name="text_size_eighteen">18sp</dimen>
+
+    <dimen name="margin_three">3dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_eight">8dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="margin_fifteen">15dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_thirty">30dp</dimen>
+</resources>

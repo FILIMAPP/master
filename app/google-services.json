@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "520402134317",
+    "firebase_url": "https://isoftinc-9517c.firebaseio.com",
+    "project_id": "isoftinc-9517c",
+    "storage_bucket": "isoftinc-9517c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520402134317:android:9556c3737afd82d0305fa4",
+        "android_client_info": {
+          "package_name": "com.isoftinc.film"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520402134317-4b6ue8pa9n1mi1kn66af00eoao038lrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ZhW4RadCpNk226edViJTScLBgW8WHu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520402134317-4b6ue8pa9n1mi1kn66af00eoao038lrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Filim</string>
+    <string name="facebook_app_id">821841945229848</string>
+    <string name="fb_login_protocol_scheme">fb821841945229848</string>
+    <string name="google_clien_id">859413678379-avt73tk6gkpb55f4dg9phtdbicoiv8v4.apps.googleusercontent.com</string>
+    
+    <string name="email_id_or_mobile_no">Enter Mobile No</string>
+    <string name="enter_mobile_no">Enter Phone Number</string>
+    <string name="or_continue_with">Or Continue With:</string>
+    <string name="or">Or</string>
+    <string name="Login_with_Facebook">Login with Facebook</string>
+    <string name="singup_with_Facebook">Sign up with Facebook</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="login_register">Login/Register</string>
+    <string name="skip">Skip</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_one_time_password">Enter One Time Password</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_four_digit_code">Enter 6 digit code</string>
+    <string name="resend">Re-send</string>
+    <string name="done">Done</string>
+    <string name="please_send_me_email">Please send me email and other marketing communications
+     regarding my account and other products from Filim</string>
+    
+    <string name="home">Home</string>
+    <string name="homeR">Home</string>
+    <string name="movies">Movies</string>
+    <string name="plays">Web Series</string>
+    <string name="dubs">Shows</string>
+    <string name="menu">Menu</string>
+    <string name="aboutus">About us</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="subscribe">SUBSCRIBE</string>
+    <string name="subscribe_small">Subscribe</string>
+    <string name="upgrade_your_subscription">Upgrade Your Subscription</string>
+    <string name="upgrade_to">UPGRADE TO</string>
+    <string name="already_a_member">Already a Member? <font fgcolor='#ffc300'>LOG IN</font></string>
+    <string name="package_one">12 month:Rs.99/-{just 27 paisa/day}</string>
+    <string name="package_two">03 month:Rs.49/-{just 53 paisa/day}</string>
+    <string name="package_three">01 month:Rs.99/-{just 95 paisa/day}</string>
+    <string name="ninty_nine_per_now">Pay Now</string>
+    <string name="profile">Profile</string>
+    <string name="plans">Plans</string>
+    <string name="subscribe_now">Subscribe Now</string>
+    <string name="notification">Notification</string>
+    <string name="share">Invite Friends</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_us">Contact us</string>
+    <string name="logout">Logout</string>
+    <string name="membership">Membership</string>
+    <string name="upgrade_your_package">Upgrade Your Package</string>
+    <string name="account_and_security">ACCOUNT AND SECURITY</string>
+    <string name="change_password">Change Password</string>
+    <string name="send">Send</string>
+    <string name="your_message">Your Message</string>
+    <string name="select_concern">Select Concern</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="genres">Genres</string>
+    <string name="history">History</string>
+    <string name="invitefriend">Invite Friend</string>
+
+    <string name="help">Help</string>
+    <string name="language">Language</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="signin">Sign In</string>
+    <string name="watch_List">History</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="you_may_also_like">You May Also Like</string>
+    <string name="share_msg">I love Filim OTT app! I strongly suggest you download the app and watch the latest Telugu Movies, Web series, Shows and much more. Click on the link</string>
+    <string name="content_language">Content Language</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="search">Search</string>
+    <string name="add_username">Add Username</string>
+    <string name="update">Update</string>
+    <string name="faq">FAQ</string>
+    <string name="continue_watchig">Continue Watching</string>
+    <string name="are_you_sure_you_want_to_logout">Are You Sure You Want to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="latest">Latest</string>
+    <string name="trending">Trending</string>
+    <string name="casting_msg">Go TO Your Notification Bar &amp; Click on    Cast Button to Pairing Your Device.</string>
+    <string name="Cast_end">Cast Button to Pairing Your Device.</string>
+    <string name="seasons">Seasons</string>
+    <string name="series">Series</string>
+    <string name="shows">Shows</string>
+
+
+</resources>

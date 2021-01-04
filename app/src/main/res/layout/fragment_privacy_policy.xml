@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    style="@style/matchmatch"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        style="@style/matchwrap"
+        layout="@layout/layout_toolbar"/>
+
+    <WebView
+        android:id="@+id/privacy_policy"
+        style="@style/matchmatch"
+        />
+
+</LinearLayout>
+</layout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/matchmatch"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <LinearLayout
+            style="@style/matchwrap"
+            android:layout_marginTop="@dimen/margin_fifteen">
+
+            <ImageButton
+                android:id="@+id/ibBack"
+                style="@style/wrapwrap"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/margin_ten"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etsearch"
+                style="@style/matchwrap"
+                android:textColor="@color/yellow"
+                android:hint="@string/search"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_sixteen"
+                android:backgroundTint="@color/yellow"
+                android:textCursorDrawable = "@drawable/blackpipe"
+                android:layout_marginStart="@dimen/margin_five"
+                android:layout_marginEnd="@dimen/margin_ten"
+                android:textColorHint="@color/yellow"
+                android:padding="@dimen/margin_ten" />
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvViewAll"
+            style="@style/matchwrap"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:orientation="vertical"
+            app:layoutManager="LinearLayoutManager">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</layout>

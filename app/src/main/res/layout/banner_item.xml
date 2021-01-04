@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/matchwrap"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardUseCompatPadding="true">
+        <RelativeLayout
+            style="@style/matchwrap">
+
+
+            <ImageView
+                android:id="@+id/image"
+                style="@style/matchmatch"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/home_03" />
+
+            <TextView
+                android:id="@+id/count"
+                style="@style/wrapwrap"
+                android:textSize="@dimen/text_size_fifteen"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/margin_ten"/>
+
+            <!-- <TextView
+                 style="@style/wrapwrap"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginStart="@dimen/margin_ten"
+                 android:text="Anupama"
+                 android:textColor="@color/fontColor"
+                 android:textSize="@dimen/text_size_sixteen"
+                 android:paddingBottom="@dimen/margin_thirty"/>-->
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

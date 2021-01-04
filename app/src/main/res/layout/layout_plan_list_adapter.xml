@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/wrapwrap"
+        android:layout_margin="@dimen/margin_ten">
+
+        <LinearLayout
+            style="@style/wrapwrap"
+            android:background="@drawable/bg_yellow"
+            android:orientation="vertical"
+            android:minWidth="150dp">
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/wrapwrap"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size_sixteen"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_fifteen"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/month"
+                style="@style/wrapwrap"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size_sixteen"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_five"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/rbplan"
+                style="@style/wrapwrap"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/text_size_sixteen"
+                android:buttonTint="@drawable/radio_bg"
+                android:layout_marginTop="@dimen/margin_eight"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</layout>
